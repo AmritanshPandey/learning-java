@@ -1,5 +1,8 @@
+// Abstract Class
 import java.io.*;
 import java.util.*;
+
+// Abstract Class Declaration
 abstract class sum {
 	abstract int SumOfTwo(int a, int b);
 	abstract int SumOfThree(int a, int b, int c);
@@ -7,6 +10,8 @@ abstract class sum {
 		System.out.println("Hello");
 	}
 }
+
+// Derived Class
 class demo extends sum {
 	int SumOfTwo(int a, int b){
 		int total = a + b;
@@ -18,7 +23,7 @@ class demo extends sum {
 	}
 			
 
-
+// Main Function
 	public static void main(String args[ ])
 	{
 		sum obj = new demo();

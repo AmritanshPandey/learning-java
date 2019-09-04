@@ -1,8 +1,12 @@
+// Abstract Class
 import java.io.*;
+//Abstract Class Declaration
 abstract class employ {
+// Abstract Function Declaration
 abstract int getsal();
 }
 
+// First Derived Class Declaration 
 class developer extends employ {
     int salary;
 	developer(int s){
@@ -13,6 +17,7 @@ class developer extends employ {
     }
 }
 
+// Second Derived Class Declaration
 class driver extends employ {
     int salary;
 	driver(int s){
@@ -23,7 +28,8 @@ class driver extends employ {
 }
 	
 }
-			
+
+// Main CLass
 class demo {
 
 	public static void main(String args[ ])

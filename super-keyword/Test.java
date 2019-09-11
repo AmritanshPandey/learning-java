@@ -7,14 +7,14 @@ class Hello
 {
     void message()
     {
-        System.out.printlin("Hello!");
+        System.out.println("Welcome to our Party");
     }
 }
 
 class Messages extends Hello {
     void message()
     {
-        System.out.println("Welcome to our party!");
+        System.out.println("Hello!");
     }
     void display()
     {
@@ -30,7 +30,7 @@ class Test
     public static void main(String[] args) {
         {
             Messages s = new Messages();
-            s.display();
+            s.display(); 
         }
     }
 }

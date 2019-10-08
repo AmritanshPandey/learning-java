@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "basic-programs_ed292933"
+        }
+    ]
+}

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - dowhileloopDemo",
+            "request": "launch",
+            "mainClass": "dowhileloopDemo",
+            "projectName": "basic-programs_ed292933"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Dog",
             "request": "launch",
             "mainClass": "Dog",
